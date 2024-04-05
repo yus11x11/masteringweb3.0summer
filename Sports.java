@@ -120,7 +120,7 @@ class Sports {
         } else if (badmintonCourtNewsac[courtNumber - 1][timeSlot - 1] != 0) {
             System.out.println("Court already booked for this time slot.");
         } else {
-            badmintonCourtOldsac[courtNumber - 1][timeSlot - 1] = rollNumber;
+            badmintonCourtNewsac[courtNumber - 1][timeSlot - 1] = rollNumber;
             System.out.println("Booking complete.");
             
         }
@@ -158,7 +158,7 @@ class Sports {
         int flag=0;
         for (int i=0;i<10;i++){
             for(int j=0;j<2;j++){
-                if(badmintonCourtNewsac[j][i]==roll_number){
+                if(badmintonCourtOldsac[j][i]==roll_number){
                 int c1=i/2;flag=1;
                 if (i % 2 == 0) {
                 System.out.print("TIME SLOT:=" + (5 + c1) + ".00--" + (5 + c1) + ".30\t\t");
