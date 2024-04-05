@@ -83,7 +83,7 @@ class Sports {
     else if (c.equals("X"))
     badmintonCourtNewsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
     
@@ -133,7 +133,7 @@ class Sports {
     else if (c.equals("X"))
     badmintonCourtNewsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
     }
@@ -182,7 +182,7 @@ class Sports {
     else if (c.equals("X"))
     badmintonCourtOldsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
         
@@ -231,7 +231,7 @@ class Sports {
     else if (c.equals("X"))
     badmintonCourtOldsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");    }
     void tenniscourt(){
@@ -279,7 +279,7 @@ class Sports {
     else if (c.equals("X"))
     tenniscourt();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
         
@@ -328,7 +328,7 @@ class Sports {
     else if (c.equals("X"))
     tenniscourt();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
     }
@@ -381,7 +381,7 @@ class Sports {
     else if (c.equals("X"))
     gymoldsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
     }
@@ -419,7 +419,7 @@ class Sports {
     else if (c.equals("X"))
     gymoldsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
     }
@@ -472,7 +472,7 @@ class Sports {
     else if (c.equals("X"))
     gymnewsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
     }
@@ -506,7 +506,7 @@ class Sports {
     else if (c.equals("X"))
     gymnewsac();
     else if(c.equals("H"))
-    menu();
+    games();
     else
     System.out.println("THANK YOU FOR USING THE SYSTEM ");
     }
